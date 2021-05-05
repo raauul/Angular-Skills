@@ -1,5 +1,6 @@
-<mat-card class="example-card">
-  <mat-card-header>
+<div >
+  <mat-card class="example-card" >
+  <mat-card-header >
     <mat-card-title>{{card.name}}</mat-card-title>
   </mat-card-header>
   <img mat-card-image [src]="card.pic" alt="Photo of a Shiba Inu">
@@ -10,6 +11,9 @@
   </mat-card-content>
   <mat-card-actions>
     <button mat-button>LIKE {{card.likes}}</button>
-    <button mat-button>SHARE</button>
+    <a href="https://www.linkedin.com/in/raul-marques-828023173/">
+    <button mat-button>Linkdin</button>
+  </a>
   </mat-card-actions>
 </mat-card>
+</div>
